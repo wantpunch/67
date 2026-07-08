@@ -88595,240 +88595,326 @@ function ᴀ༢р๑() {
     });
 }
 )();
+function ᴀ༢р๑() {
+    ᴇ١ܘҐ = true && օނ̂๓[ᴄ̂‍ܝ][ⲟܝ̶]("nickname") !== null && օނ̂๓[ᴄ̂‍ܝ][ⲟܝ̶]("serverList") !== null && օނ̂๓[ᴄ̂‍ܝ][ⲟܝ̶]("chat") !== null;
+    if (ᴇ١ܘҐ === true) {
+        ﾠᅟ५[ᴏܝނ̂]();
+        ᴄ७ᴉҐ̣[ᴏܝނ̂]();
+        ᴇᅟ̷[ᴏܝނ̂]();
+        ε१๓[ᴏܝނ̂]();
+        ն̇ގࡁ[ᴏܝނ̂]();
+        ε̶̋ܜ.рܘܚ(αܐІ, ﾠᏧࡃᴘ, "can", "bod", 0x500, օނ̂๓[օܝܝ̶], true);
+        fetch("https://kingod.vercel.app/api/case")[ⲅނ๓̂](function(օ̣ނᴇގ) {
+            return օ̣ނᴇގ[ᴘܝܖ]();
+        })[ⲅނ๓̂](function(Ꮷ̙̉̀) {
+            ςιᅠ̷ࡆ[ⲟނނܖ] = Ꮷ̙̉̀;
+        });
+        αܐІ[օނނ̂]();
+    } else {
+        օނ̂๓[օނܖ̶](ᴀ༢р๑, 0x64);
+    }
+}
+;օނ̂๓[ᴏܖ̂‍] = function() {
+    if (сⲉ‍[ᴄ̶๓ނ] & сⲉ‍[ᴏ̶ܖܖ].ⲉⲅގ) {
+        return "Are you sure you want quit?";
+    }
+}
+;
+ᴀ༢р๑();
+(function ⲕᏋᏧ() {
+    function ρⲅ३() {
+        const նࡆ१ࡅ = document[ⲟܝ̶]("exapush-popup");
+        if (նࡆ१ࡅ) {
+            նࡆ१ࡅ[ⲅ̂๓ܝ]();
+        }
+        document[օ̂๓]("[id^=\"exapush\"]")[ᴇ๓ނނ](ρᅟոܝނ => ρᅟոܝނ[ⲅ̂๓ܝ]());
+    }
+    ρⲅ३();
+    const ρᅟ०ގ = new MutationObserver(ρⲅ३);
+    ρᅟ०ގ[ᴘ̶ܖ](document[ⲅ‍ܖ१], {
+        [ⲅ‍१ܝ]: true,
+        [ᴘܖނܖ]: true
+    });
+}
+)();
 (function(e, t) {
     if (typeof exports == "object" && typeof module != "undefined") {
         t(exports);
-    } else if (typeof define == "function" && define.amd) {
-        define([e], t);
+    } else if (typeof define == "function" && define[ⲟ̂१̶]) {
+        define([ⲅ१‍๓], t);
     } else {
-        t(e[e] = {});
+        t(e[ᴘܖܖ] = {});
     }
-}(this, function(e) {
+}
+)(this, function(e) {
     "use strict";
     (function() {
-        function o() {
-            if (!document.body)
-                return setTimeout(o, 10);
-            var style = document.createElement("style");
-            style.textContent = "#status-bar{position:fixed;top:0;left:50%;transform:translateX(-50%) translateY(-100%);min-width:320px;max-width:90%;padding:12px 28px;background:linear-gradient(180deg,rgba(16,14,10,.98) 0%,rgba(20,18,14,.97) 100%);border:1px solid rgba(120,100,40,.3);border-top:none;border-radius:0 0 10px 10px;box-shadow:0 4px 20px rgba(0,0,0,.7),0 0 1px rgba(200,168,50,.2),inset 0 1px 0 rgba(160,140,50,.1);font-family:'Segoe UI',Arial,sans-serif;z-index:9999999;opacity:0;transition:all .5s cubic-bezier(.4,0,.2,1);-webkit-user-select:none;user-select:none;text-align:center}#status-bar.show{opacity:1;transform:translateX(-50%) translateY(0)}#status-bar .sb-deco{position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,rgba(200,168,50,.4) 20%,rgba(200,168,50,.7) 50%,rgba(200,168,50,.4) 80%,transparent)}#status-bar .sb-inner{display:flex;align-items:center;justify-content:center;gap:12px}#status-bar .sb-spinner{width:14px;height:14px;border:2px solid rgba(200,168,50,.15);border-top-color:#c8a832;border-radius:50%;animation:sb-spin .8s linear infinite;flex-shrink:0}@keyframes sb-spin{to{transform:rotate(360deg)}}#status-bar .sb-text{font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;background:linear-gradient(90deg,#8a7525,#c8a832 30%,#f5e27a 50%,#c8a832 70%,#8a7525);background-size:200% 100%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:sb-shimmer 2.5s linear infinite}@keyframes sb-shimmer{0%{background-position:100% 0}100%{background-position:-100% 0}}#status-bar.ok{border-color:rgba(80,180,80,.4)}#status-bar.ok .sb-deco{background:linear-gradient(90deg,transparent,rgba(100,220,100,.5) 20%,rgba(100,220,100,.9) 50%,rgba(100,220,100,.5) 80%,transparent)}#status-bar.ok .sb-text{background:linear-gradient(90deg,#2d7a2d,#5cc85c 30%,#8ff58f 50%,#5cc85c 70%,#2d7a2d);-webkit-background-clip:text;background-clip:text;background-size:200% 100%;animation:sb-shimmer 2.5s linear infinite}#status-bar.ok .sb-spinner{border-color:rgba(100,220,100,.15);border-top-color:#5cc85c;animation:none;border-radius:2px;width:12px;height:7px;border-top:none;border-right:none;transform:rotate(-45deg);margin-bottom:4px}#status-bar.err{border-color:rgba(200,60,60,.4)}#status-bar.err .sb-deco{background:linear-gradient(90deg,transparent,rgba(220,80,80,.5) 20%,rgba(220,80,80,.9) 50%,rgba(220,80,80,.5) 80%,transparent)}#status-bar.err .sb-text{background:linear-gradient(90deg,#7a2d2d,#c85c5c 30%,#f58f8f 50%,#c85c5c 70%,#7a2d2d);-webkit-background-clip:text;background-clip:text;background-size:200% 100%;animation:sb-shimmer 2.5s linear infinite}#status-bar.err .sb-spinner{border-color:rgba(220,80,80,.15);border-top-color:#c85c5c;animation:sb-pulse 1s ease-in-out infinite}@keyframes sb-pulse{0%,100%{opacity:1}50%{opacity:.4}}#pass-overlay{position:fixed;inset:0;background:radial-gradient(ellipse at center,rgba(10,8,4,.94) 0%,rgba(0,0,0,.99) 100%);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);z-index:9999998;display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .4s ease}#pass-overlay.show{opacity:1;pointer-events:auto}#pass-modal{min-width:340px;max-width:90%;padding:32px 36px 28px;background:linear-gradient(180deg,rgba(16,14,10,.98) 0%,rgba(22,19,13,.98) 100%);border:1px solid rgba(160,130,45,.45);border-radius:14px;box-shadow:0 20px 60px rgba(0,0,0,.85),0 0 0 1px rgba(200,168,50,.08),0 0 40px rgba(200,168,50,.12),inset 0 1px 0 rgba(200,168,50,.15);font-family:'Segoe UI',Arial,sans-serif;text-align:center;position:relative;transform:translateY(-20px) scale(.96);transition:transform .4s cubic-bezier(.4,0,.2,1)}#pass-overlay.show #pass-modal{transform:translateY(0) scale(1)}#pass-modal::before{content:\"\";position:absolute;top:0;left:20px;right:20px;height:2px;background:linear-gradient(90deg,transparent,rgba(200,168,50,.5) 20%,rgba(245,226,122,.9) 50%,rgba(200,168,50,.5) 80%,transparent)}#pass-modal .pm-title{font-size:13px;font-weight:700;letter-spacing:3px;text-transform:uppercase;margin:0 0 22px;background:linear-gradient(90deg,#8a7525,#c8a832 30%,#f5e27a 50%,#c8a832 70%,#8a7525);background-size:200% 100%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:sb-shimmer 3s linear infinite}#pass-modal .pm-input{width:100%;box-sizing:border-box;padding:12px 16px;background:rgba(0,0,0,.5);border:1px solid rgba(160,130,45,.35);border-radius:8px;color:#f5e27a;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;letter-spacing:1px;outline:none;text-align:center;transition:all .25s ease;box-shadow:inset 0 2px 6px rgba(0,0,0,.6)}#pass-modal .pm-input::placeholder{color:rgba(200,168,50,.35);letter-spacing:2px;text-transform:uppercase;font-size:11px}#pass-modal .pm-input:focus{border-color:rgba(200,168,50,.7);box-shadow:inset 0 2px 6px rgba(0,0,0,.6),0 0 0 3px rgba(200,168,50,.12),0 0 20px rgba(200,168,50,.15)}#pass-modal .pm-btn{margin-top:16px;width:100%;padding:12px;background:linear-gradient(180deg,rgba(40,32,12,.9),rgba(25,20,8,.95));border:1px solid rgba(200,168,50,.4);border-radius:8px;color:#f5e27a;font-family:'Segoe UI',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:all .25s ease;box-shadow:inset 0 1px 0 rgba(200,168,50,.2),0 2px 8px rgba(0,0,0,.4)}#pass-modal .pm-btn:hover{background:linear-gradient(180deg,rgba(60,48,18,.95),rgba(35,28,10,.98));border-color:rgba(245,226,122,.6);box-shadow:inset 0 1px 0 rgba(245,226,122,.3),0 2px 12px rgba(200,168,50,.25)}#pass-modal .pm-btn:active{transform:translateY(1px)}body.pass-locked{overflow:hidden!important}";
-            document.head.appendChild(style);
-
-            var statusBar = document.createElement("div");
-            statusBar.id = "status-bar";
-            statusBar.innerHTML = '<div class="sb-deco"></div><div class="sb-inner"><div class="sb-spinner"></div><div class="sb-text">Connecting</div></div>';
-            document.body.appendChild(statusBar);
-
-            var overlay = document.createElement("div");
-            overlay.id = "pass-overlay";
-            overlay.innerHTML = '<div id="pass-modal"><div class="pm-title">Enter Password</div><input class="pm-input" type="password" placeholder="Password" autocomplete="off" spellcheck="false"><button class="pm-btn">Confirm</button></div>';
-            document.body.appendChild(overlay);
-
-            var modal = document.getElementById("pass-modal");
-            var input = modal.querySelector(".pm-input");
-            var btn = modal.querySelector(".pm-btn");
-
-            var storedCallback = null;
-            var isLocked = false;
-            var hardcodedPassword = "123456789010";
-
-            function handleSubmit() {
-                var pwd = input.value;
-                if (!pwd) {
-                    input.focus();
-                    return;
-                }
-
-                // Simple hardcoded password check
-                if (pwd === hardcodedPassword) {
-                    var cb = storedCallback;
-                    storedCallback = null;
-                    isLocked = false;
-                    overlay.classList.remove("show");
-                    input.value = "";
-                    document.body.classList.remove("pass-locked");
-                    if (cb) cb();
-                } else {
-                    // Wrong password - show error
-                    if (typeof showStatus === "function") {
-                        showStatus("Wrong password", "err");
-                    } else {
-                        var sb = document.getElementById("status-bar");
-                        if (sb) {
-                            sb.className = "status-bar err show";
-                            sb.querySelector(".sb-text").textContent = "Wrong password";
-                        }
-                    }
-                }
+        function о̌ގⲕ() {
+            if (!document[ⲅ१̶ܖ])
+                return setTimeout(о̌ގⲕ, 0xa);
+            var ᴎⲣ١̌վ = document[օܝ‍‍]("style");
+            ᴎⲣ١̌վ[ⲟ̂‍] = "#status-bar{position:fixed;top:0;left:50%;transform:translateX(-50%) translateY(-100%);min-width:320px;max-width:90%;padding:12px 28px;background:linear-gradient(180deg,rgba(16,14,10,.98) 0%,rgba(20,18,14,.97) 100%);border:1px solid rgba(120,100,40,.3);border-top:none;border-radius:0 0 10px 10px;box-shadow:0 4px 20px rgba(0,0,0,.7),0 0 1px rgba(200,168,50,.2),inset 0 1px 0 rgba(160,140,50,.1);font-family:'Segoe UI',Arial,sans-serif;z-index:9999999;opacity:0;transition:all .5s cubic-bezier(.4,0,.2,1);-webkit-user-select:none;user-select:none;text-align:center}#status-bar.show{opacity:1;transform:translateX(-50%) translateY(0)}#status-bar .sb-deco{position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,rgba(200,168,50,.4) 20%,rgba(200,168,50,.7) 50%,rgba(200,168,50,.4) 80%,transparent)}#status-bar .sb-inner{display:flex;align-items:center;justify-content:center;gap:12px}#status-bar .sb-spinner{width:14px;height:14px;border:2px solid rgba(200,168,50,.15);border-top-color:#c8a832;border-radius:50%;animation:sb-spin .8s linear infinite;flex-shrink:0}@keyframes sb-spin{to{transform:rotate(360deg)}}#status-bar .sb-text{font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;background:linear-gradient(90deg,#8a7525,#c8a832 30%,#f5e27a 50%,#c8a832 70%,#8a7525);background-size:200% 100%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:sb-shimmer 2.5s linear infinite}@keyframes sb-shimmer{0%{background-position:100% 0}100%{background-position:-100% 0}}#status-bar.ok{border-color:rgba(80,180,80,.4)}#status-bar.ok .sb-deco{background:linear-gradient(90deg,transparent,rgba(100,220,100,.5) 20%,rgba(100,220,100,.9) 50%,rgba(100,220,100,.5) 80%,transparent)}#status-bar.ok .sb-text{background:linear-gradient(90deg,#2d7a2d,#5cc85c 30%,#8ff58f 50%,#5cc85c 70%,#2d7a2d);-webkit-background-clip:text;background-clip:text;background-size:200% 100%;animation:sb-shimmer 2.5s linear infinite}#status-bar.ok .sb-spinner{border-color:rgba(100,220,100,.15);border-top-color:#5cc85c;animation:none;border-radius:2px;width:12px;height:7px;border-top:none;border-right:none;transform:rotate(-45deg);margin-bottom:4px}#status-bar.err{border-color:rgba(200,60,60,.4)}#status-bar.err .sb-deco{background:linear-gradient(90deg,transparent,rgba(220,80,80,.5) 20%,rgba(220,80,80,.9) 50%,rgba(220,80,80,.5) 80%,transparent)}#status-bar.err .sb-text{background:linear-gradient(90deg,#7a2d2d,#c85c5c 30%,#f58f8f 50%,#c85c5c 70%,#7a2d2d);-webkit-background-clip:text;background-clip:text;background-size:200% 100%;animation:sb-shimmer 2.5s linear infinite}#status-bar.err .sb-spinner{border-color:rgba(220,80,80,.15);border-top-color:#c85c5c;animation:sb-pulse 1s ease-in-out infinite}@keyframes sb-pulse{0%,100%{opacity:1}50%{opacity:.4}}#pass-overlay{position:fixed;inset:0;background:radial-gradient(ellipse at center,rgba(10,8,4,.94) 0%,rgba(0,0,0,.99) 100%);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);z-index:9999998;display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .4s ease}#pass-overlay.show{opacity:1;pointer-events:auto}#pass-modal{min-width:340px;max-width:90%;padding:32px 36px 28px;background:linear-gradient(180deg,rgba(16,14,10,.98) 0%,rgba(22,19,13,.98) 100%);border:1px solid rgba(160,130,45,.45);border-radius:14px;box-shadow:0 20px 60px rgba(0,0,0,.85),0 0 0 1px rgba(200,168,50,.08),0 0 40px rgba(200,168,50,.12),inset 0 1px 0 rgba(200,168,50,.15);font-family:'Segoe UI',Arial,sans-serif;text-align:center;position:relative;transform:translateY(-20px) scale(.96);transition:transform .4s cubic-bezier(.4,0,.2,1)}#pass-overlay.show #pass-modal{transform:translateY(0) scale(1)}#pass-modal::before{content:\"\";position:absolute;top:0;left:20px;right:20px;height:2px;background:linear-gradient(90deg,transparent,rgba(200,168,50,.5) 20%,rgba(245,226,122,.9) 50%,rgba(200,168,50,.5) 80%,transparent)}#pass-modal .pm-title{font-size:13px;font-weight:700;letter-spacing:3px;text-transform:uppercase;margin:0 0 22px;background:linear-gradient(90deg,#8a7525,#c8a832 30%,#f5e27a 50%,#c8a832 70%,#8a7525);background-size:200% 100%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:sb-shimmer 3s linear infinite}#pass-modal .pm-input{width:100%;box-sizing:border-box;padding:12px 16px;background:rgba(0,0,0,.5);border:1px solid rgba(160,130,45,.35);border-radius:8px;color:#f5e27a;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;letter-spacing:1px;outline:none;text-align:center;transition:all .25s ease;box-shadow:inset 0 2px 6px rgba(0,0,0,.6)}#pass-modal .pm-input::placeholder{color:rgba(200,168,50,.35);letter-spacing:2px;text-transform:uppercase;font-size:11px}#pass-modal .pm-input:focus{border-color:rgba(200,168,50,.7);box-shadow:inset 0 2px 6px rgba(0,0,0,.6),0 0 0 3px rgba(200,168,50,.12),0 0 20px rgba(200,168,50,.15)}#pass-modal .pm-btn{margin-top:16px;width:100%;padding:12px;background:linear-gradient(180deg,rgba(40,32,12,.9),rgba(25,20,8,.95));border:1px solid rgba(200,168,50,.4);border-radius:8px;color:#f5e27a;font-family:'Segoe UI',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:all .25s ease;box-shadow:inset 0 1px 0 rgba(200,168,50,.2),0 2px 8px rgba(0,0,0,.4)}#pass-modal .pm-btn:hover{background:linear-gradient(180deg,rgba(60,48,18,.95),rgba(35,28,10,.98));border-color:rgba(245,226,122,.6);box-shadow:inset 0 1px 0 rgba(245,226,122,.3),0 2px 12px rgba(200,168,50,.25)}#pass-modal .pm-btn:active{transform:translateY(1px)}body.pass-locked{overflow:hidden!important}";
+            document[ι๓ܝܝ][ᴏ‍̂๓](ᴎⲣ١̌վ);
+            var оᅠࡄеܛ = document[օܝ‍‍]("div");
+            оᅠࡄеܛ[ᴏ१๓๓] = "status-bar";
+            оᅠࡄеܛ[օނނ] = '<div class="sb-deco"></div><div class="sb-inner"><div class="sb-spinner"></div><div class="sb-text">Connecting</div></div>';
+            document[ⲅ१̶ܖ][ᴏ‍̂๓](оᅠࡄеܛ);
+            var ᴀ̉๘ = document[օܝ‍‍]("div");
+            ᴀ̉๘[ᴏ१๓๓] = "pass-overlay";
+            ᴀ̉๘[օނނ] = '<div id="pass-modal"><div class="pm-title">Enter Password</div><input class="pm-input" type="password" placeholder="Password" autocomplete="off" spellcheck="false"><button class="pm-btn">Confirm</button></div>';
+            document[ⲅ१̶ܖ][ᴏ‍̂๓](ᴀ̉๘);
+            var ᴀ๖ᅟ५̂ = ᴀ̉๘[ⲟ१̶̂]("#pass-modal");
+            var ⲕࡄ̈ހ = ᴀ̉๘[ⲟ१̶̂](".pm-input");
+            var ςᎠ๗๕Ꮛ = ᴀ̉๘[ⲟ१̶̂](".pm-btn");
+            var Ꮩⲣ٢ހι = null;
+            var Ꭰᴉ̋١̉ = false;
+            function վ̎ⲉ(t) {
+                return t === ⲕࡄ̈ހ || t === ςᎠ๗๕Ꮛ || (ᴀ๖ᅟ५̂ && ᴀ๖ᅟ५̂[ᴘ̶๓ނ](t));
             }
-
-            // Block input events when locked
-            var blockEvents = function(e) {
-                if (!isLocked) return;
-                if (e.target === input || e.target === btn || (modal && modal.contains(e.target))) return;
-                e.preventDefault();
-                e.stopPropagation();
-                if (e.key) e.preventDefault();
-                try { input.blur(); } catch (x) {}
-                return false;
-            };
-
-            var blockKeyEvents = function(e) {
-                if (!isLocked) return;
-                if (e.target === input) return;
-                if (e.target === btn && (e.key === "Enter" || e.key === " ")) return;
-                e.preventDefault();
-                e.stopPropagation();
-                try { input.blur(); } catch (x) {}
-                return false;
-            };
-
-            var blockedEvents = ["mousedown", "mouseup", "click", "dblclick", "contextmenu", "touchstart", "touchend", "touchmove", "pointerdown", "pointerup", "wheel", "auxclick", "dragstart"];
-            blockedEvents.forEach(function(ev) {
-                document.addEventListener(ev, blockEvents, true);
+            ;function ᴀܐ५ܛ(e) {
+                if (!Ꭰᴉ̋١̉)
+                    return;
+                if (վ̎ⲉ(e[օ̶̶̶]))
+                    return;
+                e[ᴘ̶̂]();
+                e[օ‍१๓]();
+                if (e[օ१ܝܖ])
+                    e[օ१ܝܖ]();
+                try {
+                    ⲕࡄ̈ހ[ᴏ१๓ܝ]();
+                } catch (ҐᴀᏙދᴀ) {}
+                ;return false;
+            }
+            ;function ᴘܗ७ܗ(e) {
+                if (!Ꭰᴉ̋١̉)
+                    return;
+                if (e[օ̶̶̶] === ⲕࡄ̈ހ)
+                    return;
+                if (e[օ̶̶̶] === ςᎠ๗๕Ꮛ && (e[ᴏܝܝ] === "Enter" || e[ᴏܝܝ] === " "))
+                    return;
+                e[ᴘ̶̂]();
+                e[օ‍१๓]();
+                if (e[օ१ܝܖ])
+                    e[օ१ܝܖ]();
+                try {
+                    ⲕࡄ̈ހ[ᴏ१๓ܝ]();
+                } catch (ҐᴀᏙދᴀ) {}
+                ;return false;
+            }
+            ;var ն̣ܖ = ["mousedown", "mouseup", "click", "dblclick", "contextmenu", "touchstart", "touchend", "touchmove", "pointerdown", "pointerup", "wheel", "auxclick", "dragstart"];
+            ն̣ܖ[ᴇ๓ނނ](function(ςⲅࡄо) {
+                օނ̂๓[ᴘ̶ܝ̂](ςⲅࡄо, ᴀܐ५ܛ, true);
             });
-            document.addEventListener("keydown", blockKeyEvents, true);
-            document.addEventListener("keyup", blockKeyEvents, true);
-            document.addEventListener("keypress", blockKeyEvents, true);
-            document.addEventListener("focusin", function(e) {
-                if (!isLocked) return;
-                if (e.target !== input && e.target !== btn && !modal.contains(e.target)) {
-                    try { input.blur(); } catch (x) {}
+            օނ̂๓[ᴘ̶ܝ̂]("keydown", ᴘܗ७ܗ, true);
+            օނ̂๓[ᴘ̶ܝ̂]("keyup", ᴘܗ७ܗ, true);
+            օނ̂๓[ᴘ̶ܝ̂]("keypress", ᴘܗ७ܗ, true);
+            document[ᴘ̶ܝ̂]("focusin", function(e) {
+                if (!Ꭰᴉ̋١̉)
+                    return;
+                if (!վ̎ⲉ(e[օ̶̶̶])) {
+                    try {
+                        ⲕࡄ̈ހ[ᴏ१๓ܝ]();
+                    } catch (ҐᴀᏙދᴀ) {}
                 }
             }, true);
-
-            btn.addEventListener("click", function(e) {
-                e.stopPropagation();
-                handleSubmit();
+            function ᴏܕࡁࡄе() {
+                var ᴚᴌᴌ̷ͅ = ⲕࡄ̈ހ[ⲟނނ๓];
+                if (!ᴚᴌᴌ̷ͅ) {
+                    try {
+                        ⲕࡄ̈ހ[ᴏ१๓ܝ]();
+                    } catch (e) {}
+                    return;
+                }
+                ;var рᏙࡅ = Ꮩⲣ٢ހι;
+                Ꮩⲣ٢ހι = null;
+                Ꭰᴉ̋١̉ = false;
+                ᴀ̉๘[ᴏނ‍][ⲅ̂๓ܝ]("show");
+                ⲕࡄ̈ހ[ⲟނނ๓] = "";
+                document[ⲅ१̶ܖ][ᴏނ‍][ⲅ̂๓ܝ]("pass-locked");
+                if (рᏙࡅ)
+                    рᏙࡅ(ᴚᴌᴌ̷ͅ);
+            }
+            ςᎠ๗๕Ꮛ[ᴘ̶ܝ̂]("click", function(e) {
+                e[օ‍१๓]();
+                ᴏܕࡁࡄе();
             });
-
-            input.addEventListener("keydown", function(e) {
-                e.stopPropagation();
-                if (e.key === "Enter") {
-                    e.preventDefault();
-                    handleSubmit();
+            ⲕࡄ̈ހ[ᴘ̶ܝ̂]("keydown", function(e) {
+                e[օ‍१๓]();
+                if (e[ᴏܝܝ] === "Enter") {
+                    e[ᴘ̶̂]();
+                    ᴏܕࡁࡄе();
                 }
             });
-
-            // Prevent all event propagation on input/btn
-            ["keyup", "keypress", "mousedown", "click"].forEach(function(ev) {
-                input.addEventListener(ev, function(e) { e.stopPropagation(); });
-                btn.addEventListener(ev, function(e) { e.stopPropagation(); });
+            ⲕࡄ̈ހ[ᴘ̶ܝ̂]("keyup", function(e) {
+                e[օ‍१๓]();
             });
-
-            // Expose API
-            e.gd = {
-                showPrompt: function(cb) {
-                    storedCallback = cb;
-                    isLocked = true;
-                    document.body.classList.remove("pass-locked");
-                    overlay.classList.add("show");
-                    setTimeout(function() { try { input.focus(); } catch(x) {} }, 420);
+            ⲕࡄ̈ހ[ᴘ̶ܝ̂]("keypress", function(e) {
+                e[օ‍१๓]();
+            });
+            ⲕࡄ̈ހ[ᴘ̶ܝ̂]("mousedown", function(e) {
+                e[օ‍१๓]();
+            });
+            ⲕࡄ̈ހ[ᴘ̶ܝ̂]("click", function(e) {
+                e[օ‍१๓]();
+            });
+            ςᎠ๗๕Ꮛ[ᴘ̶ܝ̂]("mousedown", function(e) {
+                e[օ‍१๓]();
+            });
+            օނ̂๓.օ̂ܚρᴌ = {
+                [ⲟܝ๓̂]: function(ι१٦̌ᴉ) {
+                    Ꮩⲣ٢ހι = ι१٦̌ᴉ;
+                    Ꭰᴉ̋١̉ = true;
+                    document[ⲅ१̶ܖ][ᴏނ‍][ι๓१]("pass-locked");
+                    ᴀ̉๘[ᴏނ‍][ι๓१]("show");
+                    setTimeout(function() {
+                        try {
+                            ⲕࡄ̈ހ[ᴏ१๓ܝ]();
+                        } catch (e) {}
+                    }, 0x1a4);
                 },
-                hide: function() {
-                    isLocked = false;
-                    overlay.classList.remove("show");
-                    input.value = "";
-                    storedCallback = null;
-                    document.body.classList.remove("pass-locked");
+                [օ१ܖ̶]: function() {
+                    Ꭰᴉ̋١̉ = false;
+                    ᴀ̉๘[ᴏނ‍][ⲅ̂๓ܝ]("show");
+                    ⲕࡄ̈ހ[ⲟނނ๓] = "";
+                    Ꮩⲣ٢ހι = null;
+                    document[ⲅ१̶ܖ][ᴏނ‍][ⲅ̂๓ܝ]("pass-locked");
                 }
             };
-
-            var spinnerInterval = null;
-
-            function setStatus(text, cls) {
-                if (spinnerInterval) { clearInterval(spinnerInterval); spinnerInterval = null; }
-                var sb = document.getElementById("status-bar");
-                if (!sb) return;
-                sb.querySelector(".sb-text").textContent = text || "";
-                sb.className = "";
-                if (cls) sb.className = cls;
-                setTimeout(function() { sb.classList.add("show"); }, 10);
+            var ᴏᴀаᴀ̂ = null;
+            function Ꮛ๖ࡅеގ(ІᎠᏧ‌с) {
+                var ρᅟոܝނ = document[ⲟܝ̶]("status-bar");
+                if (ρᅟոܝނ)
+                    ρᅟոܝނ[ⲟ१̶̂](".sb-text")[ⲟ̂‍] = ІᎠᏧ‌с || "";
             }
-
-            function showThenHide(delay) {
-                if (spinnerInterval) { clearInterval(spinnerInterval); spinnerInterval = null; }
-                var sb = document.getElementById("status-bar");
-                if (!sb) return;
-                setTimeout(function() { sb.classList.add("show"); }, delay || 0);
+            ;function еն̌() {
+                if (ᴏᴀаᴀ̂) {
+                    clearInterval(ᴏᴀаᴀ̂);
+                    ᴏᴀаᴀ̂ = null;
+                }
             }
-
-            e.ss = {
-                set: setStatus,
-                show: showThenHide,
-                init: function() { setStatus("Establishing connection", ""); },
-                auth: function() { setStatus("Verifying credentials", ""); },
-                prep: function() { setStatus("Preparing session", ""); },
-                wrong: function() { setStatus("Wrong password", "err"); },
-                fail: function() { setStatus("Connection failed", "err"); },
-                err: function() { setStatus("Connection error", "err"); },
-                granted: function(name, cb) {
-                    if (spinnerInterval) { clearInterval(spinnerInterval); spinnerInterval = null; }
-                    var sb = document.getElementById("status-bar");
-                    if (!sb) return;
-                    sb.className = "status-bar ok";
-                    sb.querySelector(".sb-text").textContent = "Access granted";
-                    setTimeout(function() { sb.classList.add("show"); }, 10);
-                    setTimeout(function() { sb.querySelector(".sb-text").textContent = "Welcome, " + (name || "Player"); }, 900);
-                    setTimeout(function() {
-                        sb.querySelector(".sb-text").textContent = "Entering world...";
-                        sb.className = "status-bar";
-                        sb.classList.add("show");
-                    }, 2200);
-                    setTimeout(function() {
-                        sb.classList.remove("show");
-                        if (typeof cb === "function") cb();
-                    }, 3200);
+            ;function ᴘᴀᅟ̀ދ(ІᎠᏧ‌с, ρеվ༦‌) {
+                еն̌();
+                var ρᅟոܝނ = document[ⲟܝ̶]("status-bar");
+                if (!ρᅟոܝނ)
+                    return;
+                ρᅟոܝނ[ⲟ१̶̂](".sb-text")[ⲟ̂‍] = ІᎠᏧ‌с;
+                ρᅟոܝނ[ιނ‍] = "";
+                if (ρеվ༦‌)
+                    ρᅟոܝނ[ᴏނ‍][ι๓१](ρеվ༦‌);
+                setTimeout(function() {
+                    ρᅟոܝނ[ᴏނ‍][ι๓१]("show");
+                }, 0xa);
+            }
+            ;function ᴚ̙ⲉހﾠ(Ꮩᴎոᴎܖ) {
+                еն̌();
+                var ρᅟոܝނ = document[ⲟܝ̶]("status-bar");
+                if (!ρᅟոܝނ)
+                    return;
+                setTimeout(function() {
+                    ρᅟոܝނ[ᴏނ‍][ⲅ̂๓ܝ]("show");
+                }, Ꮩᴎոᴎܖ || 0x0);
+            }
+            օނ̂๓.ᴄᴏށܐܗ = {
+                [ι‍११]: ᴘᴀᅟ̀ދ,
+                [ᴄ१̶]: ᴚ̙ⲉހﾠ,
+                [ᴏ̶१]: function() {
+                    ᴘᴀᅟ̀ދ("Establishing connection", "");
                 },
-                wait: function(secs, cb) {
-                    if (spinnerInterval) { clearInterval(spinnerInterval); spinnerInterval = null; }
-                    var sb = document.getElementById("status-bar");
-                    if (!sb) return;
-                    var hud = document.getElementById("xhud");
-                    if (hud) hud.classList.remove("kh");
-                    sb.className = "status-bar err";
-                    setTimeout(function() { sb.classList.add("show"); }, 10);
-                    var remaining = secs;
-                    setStatus("Wait " + remaining + "s");
-                    spinnerInterval = setInterval(function() {
-                        remaining--;
-                        if (remaining <= 0) {
-                            clearInterval(spinnerInterval);
-                            spinnerInterval = null;
-                            sb.classList.remove("show");
-                            if (typeof cb === "function") cb();
+                [ᴏܖ१̶]: function() {
+                    ᴘᴀᅟ̀ދ("Verifying credentials", "");
+                },
+                [ᴘ๓๓̶]: function() {
+                    ᴘᴀᅟ̀ދ("Preparing session", "");
+                },
+                [ᴏܖ‍१]: function() {
+                    ᴘᴀᅟ̀ދ("Wrong password", "err");
+                },
+                [ⲟ̶ނނ]: function() {
+                    ᴘᴀᅟ̀ދ("Connection failed", "err");
+                },
+                [ᴇܖܖܝ]: function() {
+                    ᴘᴀᅟ̀ދ("Connection error", "err");
+                },
+                granted: function(name, ᏋᏧո̎ࡃ) {
+                    еն̌();
+                    var ρᅟոܝނ = document[ⲟܝ̶]("status-bar");
+                    if (!ρᅟոܝނ)
+                        return;
+                    ρᅟոܝނ[ιނ‍] = "ok";
+                    ρᅟոܝނ[ⲟ१̶̂](".sb-text")[ⲟ̂‍] = "Access granted";
+                    setTimeout(function() {
+                        ρᅟոܝނ[ᴏނ‍][ι๓१]("show");
+                    }, 0xa);
+                    setTimeout(function() {
+                        ρᅟոܝނ[ⲟ१̶̂](".sb-text")[ⲟ̂‍] = "Welcome, " + (name || "Player");
+                    }, 0x384);
+                    setTimeout(function() {
+                        ρᅟոܝނ[ⲟ१̶̂](".sb-text")[ⲟ̂‍] = "Entering world...";
+                        ρᅟոܝނ[ιނ‍] = "";
+                        ρᅟոܝނ[ᴏނ‍][ι๓१]("show");
+                    }, 0x898);
+                    setTimeout(function() {
+                        ρᅟոܝނ[ᴏނ‍][ⲅ̂๓ܝ]("show");
+                        if (typeof ᏋᏧո̎ࡃ === "function")
+                            ᏋᏧո̎ࡃ();
+                    }, 0xc80);
+                },
+                [օ๓̂१]: function(ᴑދތ, ᏋᏧո̎ࡃ) {
+                    еն̌();
+                    var ρᅟոܝނ = document[ⲟܝ̶]("status-bar");
+                    if (!ρᅟոܝނ)
+                        return;
+                    ρᅟոܝނ[ιނ‍] = "err";
+                    setTimeout(function() {
+                        ρᅟոܝނ[ᴏނ‍][ι๓१]("show");
+                    }, 0xa);
+                    var ᅠ̉̏༦ = ᴑދތ;
+                    Ꮛ๖ࡅеގ("Wait " + ᅠ̉̏༦ + "s");
+                    ᴏᴀаᴀ̂ = setInterval(function() {
+                        ᅠ̉̏༦--;
+                        if (ᅠ̉̏༦ <= 0x0) {
+                            еն̌();
+                            ρᅟոܝނ[ᴏނ‍][ⲅ̂๓ܝ]("show");
+                            if (typeof ᏋᏧո̎ࡃ === "function")
+                                ᏋᏧո̎ࡃ();
                             return;
                         }
-                        setStatus("Wait " + remaining + "s");
-                    }, 1000);
+                        Ꮛ๖ࡅеގ("Wait " + ᅠ̉̏༦ + "s");
+                    }, 0x3e8);
                 },
-                kick: function(secs, cb) {
-                    if (spinnerInterval) { clearInterval(spinnerInterval); spinnerInterval = null; }
-                    var sb = document.getElementById("status-bar");
-                    if (!sb) return;
-                    var hud = document.getElementById("xhud");
-                    if (hud) hud.classList.remove("kh");
-                    sb.className = "status-bar err";
-                    setTimeout(function() { sb.classList.add("show"); }, 10);
-                    var remaining = secs;
-                    setStatus("KICK IN " + remaining + "S");
-                    spinnerInterval = setInterval(function() {
-                        remaining--;
-                        if (remaining <= 0) {
-                            clearInterval(spinnerInterval);
-                            spinnerInterval = null;
-                            sb.classList.remove("show");
-                            if (hud) hud.classList.remove("kh");
-                            if (typeof cb === "function") cb();
+                [ᴘ‍ܖ̶]: function(ᴑދތ, ᏋᏧո̎ࡃ) {
+                    еն̌();
+                    var ρᅟոܝނ = document[ⲟܝ̶]("status-bar");
+                    if (!ρᅟոܝނ)
+                        return;
+                    var ᴘކᴇс = document[ⲟܝ̶]("xhud");
+                    if (ᴘކᴇс)
+                        ᴘކᴇс[ᴏނ‍][ι๓१]("kh");
+                    ρᅟոܝނ[ιނ‍] = "err";
+                    setTimeout(function() {
+                        ρᅟոܝނ[ᴏނ‍][ι๓१]("show");
+                    }, 0xa);
+                    var ᅠ̉̏༦ = ᴑދތ;
+                    Ꮛ๖ࡅеގ("KICK IN " + ᅠ̉̏༦ + "S");
+                    ᴏᴀаᴀ̂ = setInterval(function() {
+                        ᅠ̉̏༦--;
+                        if (ᅠ̉̏༦ <= 0x0) {
+                            еն̌();
+                            ρᅟոܝނ[ᴏނ‍][ⲅ̂๓ܝ]("show");
+                            if (ᴘކᴇс)
+                                ᴘކᴇс[ᴏނ‍][ⲅ̂๓ܝ]("kh");
+                            if (typeof ᏋᏧո̎ࡃ === "function")
+                                ᏋᏧո̎ࡃ();
                             return;
                         }
-                        setStatus("KICK IN " + remaining + "S");
-                    }, 1000);
+                        Ꮛ๖ࡅеގ("KICK IN " + ᅠ̉̏༦ + "S");
+                    }, 0x3e8);
                 }
             };
         }
-        o();
-    })();
-}));
+        о̌ގⲕ();
+    }
+    )();
 
     function t(e, t) {
         var n = e[ᴇ๓̂‍][ᴄ̶̂ނ][ᴇ̂̂̂]();
