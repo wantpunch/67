@@ -51793,11 +51793,11 @@ var ﾠᅟ५ = function() {
         }
         ;if (с‍٠[ιܝ̂ނ]() === 0x1) {
             ᴎ̶०٠ⲕ = 0x1;
-            var ⲉ५ε๗ܜ = օނ̂๓[ᴏ̶̂]("edite v1", "_blank");
+            var ⲉ५ε๗ܜ = օނ̂๓[ᴏ̶̂]("https://discord.gg/yQJmMM6JtG", "_blank");
         }
         ;if (ոᏋܕވ٠[ιܝ̂ނ]() === 0x1) {
             ᴎ̶०٠ⲕ = 0x1;
-            var ⲉ५ε๗ܜ = օނ̂๓[ᴏ̶̂]("edite v1", "_blank");
+            var ⲉ५ε๗ܜ = օނ̂๓[ᴏ̶̂]("https://discord.gg/yQJmMM6JtG", "_blank");
         }
         ;if (ςᅟ๘[ιܝ̂ނ]() === 0x1) {
             ᴎ̶०٠ⲕ = 0x1;
@@ -88545,7 +88545,7 @@ try {
     } catch (Ꭰε̇) {}
 }
 ;рބ‌०с();
-var ᅟ̙ᴎ = "edit v1";
+var ᅟ̙ᴎ = "edit 1";
 try {
     Ꮛܜᅟоօ;
 } catch (Ꭰε̇) {
