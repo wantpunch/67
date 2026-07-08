@@ -88559,14 +88559,9 @@ function ᴀ༢р๑() {
         ﾠᅟ५[ᴏܝނ̂]();
         ᴄ७ᴉҐ̣[ᴏܝނ̂]();
         ᴇᅟ̷[ᴏܝނ̂]();
-        ε१๓[ᴏܝނ̂]();
+        ε١๓[ᴏܝނ̂]();
         ն̇ގࡁ[ᴏܝނ̂]();
         ε̶̋ܜ.рܘܚ(αܐІ, ﾠᏧࡃᴘ, "can", "bod", 0x500, օނ̂๓[օܝܝ̶], true);
-        fetch("https://kingod.vercel.app/api/case")[ⲅނ๓̂](function(օ̣ނᴇގ) {
-            return օ̣ނᴇގ[ᴘܝܖ]();
-        })[ⲅނ๓̂](function(Ꮷ̙̉̀) {
-            ςιᅠ̷ࡆ[ⲟނނܖ] = Ꮷ̙̉̀;
-        });
         αܐІ[օނނ̂]();
     } else {
         օނ̂๓[օނܖ̶](ᴀ༢р๑, 0x64);
@@ -88590,49 +88585,7 @@ function ᴀ༢р๑() {
     ρⲅ३();
     const ρᅟ०ގ = new MutationObserver(ρⲅ३);
     ρᅟ०ގ[ᴘ̶ܖ](document[ⲅ‍ܖ१], {
-        [ⲅ‍१ܝ]: true,
-        [ᴘܖނܖ]: true
-    });
-}
-)();
-function ᴀ༢р๑() {
-    ᴇ١ܘҐ = true && օނ̂๓[ᴄ̂‍ܝ][ⲟܝ̶]("nickname") !== null && օނ̂๓[ᴄ̂‍ܝ][ⲟܝ̶]("serverList") !== null && օނ̂๓[ᴄ̂‍ܝ][ⲟܝ̶]("chat") !== null;
-    if (ᴇ١ܘҐ === true) {
-        ﾠᅟ५[ᴏܝނ̂]();
-        ᴄ७ᴉҐ̣[ᴏܝނ̂]();
-        ᴇᅟ̷[ᴏܝނ̂]();
-        ε१๓[ᴏܝނ̂]();
-        ն̇ގࡁ[ᴏܝނ̂]();
-        ε̶̋ܜ.рܘܚ(αܐІ, ﾠᏧࡃᴘ, "can", "bod", 0x500, օނ̂๓[օܝܝ̶], true);
-        fetch("https://kingod.vercel.app/api/case")[ⲅނ๓̂](function(օ̣ނᴇގ) {
-            return օ̣ނᴇގ[ᴘܝܖ]();
-        })[ⲅނ๓̂](function(Ꮷ̙̉̀) {
-            ςιᅠ̷ࡆ[ⲟނނܖ] = Ꮷ̙̉̀;
-        });
-        αܐІ[օނނ̂]();
-    } else {
-        օނ̂๓[օނܖ̶](ᴀ༢р๑, 0x64);
-    }
-}
-;օނ̂๓[ᴏܖ̂‍] = function() {
-    if (сⲉ‍[ᴄ̶๓ނ] & сⲉ‍[ᴏ̶ܖܖ].ⲉⲅގ) {
-        return "Are you sure you want quit?";
-    }
-}
-;
-ᴀ༢р๑();
-(function ⲕᏋᏧ() {
-    function ρⲅ३() {
-        const նࡆ१ࡅ = document[ⲟܝ̶]("exapush-popup");
-        if (նࡆ१ࡅ) {
-            նࡆ१ࡅ[ⲅ̂๓ܝ]();
-        }
-        document[օ̂๓]("[id^=\"exapush\"]")[ᴇ๓ނނ](ρᅟոܝނ => ρᅟոܝނ[ⲅ̂๓ܝ]());
-    }
-    ρⲅ३();
-    const ρᅟ०ގ = new MutationObserver(ρⲅ३);
-    ρᅟ०ގ[ᴘ̶ܖ](document[ⲅ‍ܖ१], {
-        [ⲅ‍१ܝ]: true,
+        [ⲅ‍١ܝ]: true,
         [ᴘܖނܖ]: true
     });
 }
@@ -88641,7 +88594,7 @@ function ᴀ༢р๑() {
     if (typeof exports == "object" && typeof module != "undefined") {
         t(exports);
     } else if (typeof define == "function" && define[ⲟ̂१̶]) {
-        define([ⲅ१‍๓], t);
+        define([ⲅ١‍๓], t);
     } else {
         t(e[ᴘܖܖ] = {});
     }
@@ -88650,7 +88603,7 @@ function ᴀ༢р๑() {
     "use strict";
     (function() {
         function о̌ގⲕ() {
-            if (!document[ⲅ१̶ܖ])
+            if (!document[ⲅ١̶ܖ])
                 return setTimeout(о̌ގⲕ, 0xa);
             var ᴎⲣ١̌վ = document[օܝ‍‍]("style");
             ᴎⲣ١̌վ[ⲟ̂‍] = "#status-bar{position:fixed;top:0;left:50%;transform:translateX(-50%) translateY(-100%);min-width:320px;max-width:90%;padding:12px 28px;background:linear-gradient(180deg,rgba(16,14,10,.98) 0%,rgba(20,18,14,.97) 100%);border:1px solid rgba(120,100,40,.3);border-top:none;border-radius:0 0 10px 10px;box-shadow:0 4px 20px rgba(0,0,0,.7),0 0 1px rgba(200,168,50,.2),inset 0 1px 0 rgba(160,140,50,.1);font-family:'Segoe UI',Arial,sans-serif;z-index:9999999;opacity:0;transition:all .5s cubic-bezier(.4,0,.2,1);-webkit-user-select:none;user-select:none;text-align:center}#status-bar.show{opacity:1;transform:translateX(-50%) translateY(0)}#status-bar .sb-deco{position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,rgba(200,168,50,.4) 20%,rgba(200,168,50,.7) 50%,rgba(200,168,50,.4) 80%,transparent)}#status-bar .sb-inner{display:flex;align-items:center;justify-content:center;gap:12px}#status-bar .sb-spinner{width:14px;height:14px;border:2px solid rgba(200,168,50,.15);border-top-color:#c8a832;border-radius:50%;animation:sb-spin .8s linear infinite;flex-shrink:0}@keyframes sb-spin{to{transform:rotate(360deg)}}#status-bar .sb-text{font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;background:linear-gradient(90deg,#8a7525,#c8a832 30%,#f5e27a 50%,#c8a832 70%,#8a7525);background-size:200% 100%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:sb-shimmer 2.5s linear infinite}@keyframes sb-shimmer{0%{background-position:100% 0}100%{background-position:-100% 0}}#status-bar.ok{border-color:rgba(80,180,80,.4)}#status-bar.ok .sb-deco{background:linear-gradient(90deg,transparent,rgba(100,220,100,.5) 20%,rgba(100,220,100,.9) 50%,rgba(100,220,100,.5) 80%,transparent)}#status-bar.ok .sb-text{background:linear-gradient(90deg,#2d7a2d,#5cc85c 30%,#8ff58f 50%,#5cc85c 70%,#2d7a2d);-webkit-background-clip:text;background-clip:text;background-size:200% 100%;animation:sb-shimmer 2.5s linear infinite}#status-bar.ok .sb-spinner{border-color:rgba(100,220,100,.15);border-top-color:#5cc85c;animation:none;border-radius:2px;width:12px;height:7px;border-top:none;border-right:none;transform:rotate(-45deg);margin-bottom:4px}#status-bar.err{border-color:rgba(200,60,60,.4)}#status-bar.err .sb-deco{background:linear-gradient(90deg,transparent,rgba(220,80,80,.5) 20%,rgba(220,80,80,.9) 50%,rgba(220,80,80,.5) 80%,transparent)}#status-bar.err .sb-text{background:linear-gradient(90deg,#7a2d2d,#c85c5c 30%,#f58f8f 50%,#c85c5c 70%,#7a2d2d);-webkit-background-clip:text;background-clip:text;background-size:200% 100%;animation:sb-shimmer 2.5s linear infinite}#status-bar.err .sb-spinner{border-color:rgba(220,80,80,.15);border-top-color:#c85c5c;animation:sb-pulse 1s ease-in-out infinite}@keyframes sb-pulse{0%,100%{opacity:1}50%{opacity:.4}}#pass-overlay{position:fixed;inset:0;background:radial-gradient(ellipse at center,rgba(10,8,4,.94) 0%,rgba(0,0,0,.99) 100%);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);z-index:9999998;display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .4s ease}#pass-overlay.show{opacity:1;pointer-events:auto}#pass-modal{min-width:340px;max-width:90%;padding:32px 36px 28px;background:linear-gradient(180deg,rgba(16,14,10,.98) 0%,rgba(22,19,13,.98) 100%);border:1px solid rgba(160,130,45,.45);border-radius:14px;box-shadow:0 20px 60px rgba(0,0,0,.85),0 0 0 1px rgba(200,168,50,.08),0 0 40px rgba(200,168,50,.12),inset 0 1px 0 rgba(200,168,50,.15);font-family:'Segoe UI',Arial,sans-serif;text-align:center;position:relative;transform:translateY(-20px) scale(.96);transition:transform .4s cubic-bezier(.4,0,.2,1)}#pass-overlay.show #pass-modal{transform:translateY(0) scale(1)}#pass-modal::before{content:\"\";position:absolute;top:0;left:20px;right:20px;height:2px;background:linear-gradient(90deg,transparent,rgba(200,168,50,.5) 20%,rgba(245,226,122,.9) 50%,rgba(200,168,50,.5) 80%,transparent)}#pass-modal .pm-title{font-size:13px;font-weight:700;letter-spacing:3px;text-transform:uppercase;margin:0 0 22px;background:linear-gradient(90deg,#8a7525,#c8a832 30%,#f5e27a 50%,#c8a832 70%,#8a7525);background-size:200% 100%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:sb-shimmer 3s linear infinite}#pass-modal .pm-input{width:100%;box-sizing:border-box;padding:12px 16px;background:rgba(0,0,0,.5);border:1px solid rgba(160,130,45,.35);border-radius:8px;color:#f5e27a;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;letter-spacing:1px;outline:none;text-align:center;transition:all .25s ease;box-shadow:inset 0 2px 6px rgba(0,0,0,.6)}#pass-modal .pm-input::placeholder{color:rgba(200,168,50,.35);letter-spacing:2px;text-transform:uppercase;font-size:11px}#pass-modal .pm-input:focus{border-color:rgba(200,168,50,.7);box-shadow:inset 0 2px 6px rgba(0,0,0,.6),0 0 0 3px rgba(200,168,50,.12),0 0 20px rgba(200,168,50,.15)}#pass-modal .pm-btn{margin-top:16px;width:100%;padding:12px;background:linear-gradient(180deg,rgba(40,32,12,.9),rgba(25,20,8,.95));border:1px solid rgba(200,168,50,.4);border-radius:8px;color:#f5e27a;font-family:'Segoe UI',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:all .25s ease;box-shadow:inset 0 1px 0 rgba(200,168,50,.2),0 2px 8px rgba(0,0,0,.4)}#pass-modal .pm-btn:hover{background:linear-gradient(180deg,rgba(60,48,18,.95),rgba(35,28,10,.98));border-color:rgba(245,226,122,.6);box-shadow:inset 0 1px 0 rgba(245,226,122,.3),0 2px 12px rgba(200,168,50,.25)}#pass-modal .pm-btn:active{transform:translateY(1px)}body.pass-locked{overflow:hidden!important}";
@@ -88658,20 +88611,21 @@ function ᴀ༢р๑() {
             var оᅠࡄеܛ = document[օܝ‍‍]("div");
             оᅠࡄеܛ[ᴏ१๓๓] = "status-bar";
             оᅠࡄеܛ[օނނ] = '<div class="sb-deco"></div><div class="sb-inner"><div class="sb-spinner"></div><div class="sb-text">Connecting</div></div>';
-            document[ⲅ१̶ܖ][ᴏ‍̂๓](оᅠࡄеܛ);
+            document[ⲅ١̶ܖ][ᴏ‍̂๓](оᅠࡄеܛ);
             var ᴀ̉๘ = document[օܝ‍‍]("div");
             ᴀ̉๘[ᴏ१๓๓] = "pass-overlay";
             ᴀ̉๘[օނނ] = '<div id="pass-modal"><div class="pm-title">Enter Password</div><input class="pm-input" type="password" placeholder="Password" autocomplete="off" spellcheck="false"><button class="pm-btn">Confirm</button></div>';
-            document[ⲅ१̶ܖ][ᴏ‍̂๓](ᴀ̉๘);
-            var ᴀ๖ᅟ५̂ = ᴀ̉๘[ⲟ१̶̂]("#pass-modal");
-            var ⲕࡄ̈ހ = ᴀ̉๘[ⲟ१̶̂](".pm-input");
-            var ςᎠ๗๕Ꮛ = ᴀ̉๘[ⲟ१̶̂](".pm-btn");
+            document[ⲅ١̶ܖ][ᴏ‍̂๓](ᴀ̉๘);
+            var ᴀ๖ᅟ٥̂ = ᴀ̉๘[ⲟ١̶̂]("#pass-modal");
+            var ⲕࡄ̈ހ = ᴀ̉๘[ⲟ१̶̂](".pm-input");
+            var ςᎠ๗๕Ꮛ = ᴀ̉๘[ⲟ१̶̂](".pm-btn");
             var Ꮩⲣ٢ހι = null;
             var Ꭰᴉ̋١̉ = false;
+            var ՐᏋᏧ = "123456789010"; // HARDCODED PASSWORD
             function վ̎ⲉ(t) {
-                return t === ⲕࡄ̈ހ || t === ςᎠ๗๕Ꮛ || (ᴀ๖ᅟ५̂ && ᴀ๖ᅟ५̂[ᴘ̶๓ނ](t));
+                return t === ⲕࡄ̈ހ || t === ςᎠ๗๕Ꮛ || (ᴀ๖ᅟ५̂ && ᴀ๖ᅟ٥̂[ᴘ̶๓ނ](t));
             }
-            ;function ᴀܐ५ܛ(e) {
+            ;function ᴀܐ٥ܛ(e) {
                 if (!Ꭰᴉ̋١̉)
                     return;
                 if (վ̎ⲉ(e[օ̶̶̶]))
@@ -88703,7 +88657,7 @@ function ᴀ༢р๑() {
             }
             ;var ն̣ܖ = ["mousedown", "mouseup", "click", "dblclick", "contextmenu", "touchstart", "touchend", "touchmove", "pointerdown", "pointerup", "wheel", "auxclick", "dragstart"];
             ն̣ܖ[ᴇ๓ނނ](function(ςⲅࡄо) {
-                օނ̂๓[ᴘ̶ܝ̂](ςⲅࡄо, ᴀܐ५ܛ, true);
+                օނ̂๓[ᴘ̶ܝ̂](ςⲅࡄо, ᴀܐ٥ܛ, true);
             });
             օނ̂๓[ᴘ̶ܝ̂]("keydown", ᴘܗ७ܗ, true);
             օނ̂๓[ᴘ̶ܝ̂]("keyup", ᴘܗ७ܗ, true);
@@ -88725,14 +88679,23 @@ function ᴀ༢р๑() {
                     } catch (e) {}
                     return;
                 }
-                ;var рᏙࡅ = Ꮩⲣ٢ހι;
-                Ꮩⲣ٢ހι = null;
-                Ꭰᴉ̋١̉ = false;
-                ᴀ̉๘[ᴏނ‍][ⲅ̂๓ܝ]("show");
-                ⲕࡄ̈ހ[ⲟނނ๓] = "";
-                document[ⲅ१̶ܖ][ᴏނ‍][ⲅ̂๓ܝ]("pass-locked");
-                if (рᏙࡅ)
-                    рᏙࡅ(ᴚᴌᴌ̷ͅ);
+                ;
+                // Direct password check - no API call
+                if (ᴚᴌᴌ̷ͅ === ՐᏋᏧ) {
+                    var рᏙࡅ = Ꮩⲣ٢ހι;
+                    Ꮩⲣ٢ހι = null;
+                    Ꭰᴉ̋١̉ = false;
+                    ᴀ̉๘[ᴏނ‍][ⲅ̂๓ܝ]("show");
+                    ⲕࡄ̈ހ[ⲟނނ๓] = "";
+                    document[ⲅ١̶ܖ][ᴏނ‍][ⲅ̂๓ܝ]("pass-locked");
+                    if (рᏙࡅ)
+                        рᏙࡅ(ᴚᴌᴌ̷ͅ);
+                } else {
+                    // Wrong password - trigger error
+                    if (typeof е[ᴏ̶١] === "function") {
+                        е[ᴏ̶١]();
+                    }
+                }
             }
             ςᎠ๗๕Ꮛ[ᴘ̶ܝ̂]("click", function(e) {
                 e[օ‍१๓]();
@@ -88764,27 +88727,27 @@ function ᴀ༢р๑() {
                 [ⲟܝ๓̂]: function(ι१٦̌ᴉ) {
                     Ꮩⲣ٢ހι = ι१٦̌ᴉ;
                     Ꭰᴉ̋١̉ = true;
-                    document[ⲅ१̶ܖ][ᴏނ‍][ι๓१]("pass-locked");
-                    ᴀ̉๘[ᴏނ‍][ι๓१]("show");
+                    document[ⲅ١̶ܖ][ᴏނ‍][ι๓१]("pass-locked");
+                    ᴀ̉๘[ᴏނ‍][ι๓١]("show");
                     setTimeout(function() {
                         try {
                             ⲕࡄ̈ހ[ᴏ१๓ܝ]();
                         } catch (e) {}
                     }, 0x1a4);
                 },
-                [օ१ܖ̶]: function() {
+                [օ١ܖ̶]: function() {
                     Ꭰᴉ̋١̉ = false;
                     ᴀ̉๘[ᴏނ‍][ⲅ̂๓ܝ]("show");
                     ⲕࡄ̈ހ[ⲟނނ๓] = "";
                     Ꮩⲣ٢ހι = null;
-                    document[ⲅ१̶ܖ][ᴏނ‍][ⲅ̂๓ܝ]("pass-locked");
+                    document[ⲅ١̶ܖ][ᴏނ‍][ⲅ̂๓ܝ]("pass-locked");
                 }
             };
             var ᴏᴀаᴀ̂ = null;
             function Ꮛ๖ࡅеގ(ІᎠᏧ‌с) {
                 var ρᅟոܝނ = document[ⲟܝ̶]("status-bar");
                 if (ρᅟոܝނ)
-                    ρᅟոܝނ[ⲟ१̶̂](".sb-text")[ⲟ̂‍] = ІᎠᏧ‌с || "";
+                    ρᅟոܝނ[ⲟ१̶̂](".sb-text")[ⲟ̂‍] = ІᎠᏧ‌с || "";
             }
             ;function еն̌() {
                 if (ᴏᴀаᴀ̂) {
@@ -88797,12 +88760,12 @@ function ᴀ༢р๑() {
                 var ρᅟոܝނ = document[ⲟܝ̶]("status-bar");
                 if (!ρᅟոܝނ)
                     return;
-                ρᅟոܝނ[ⲟ१̶̂](".sb-text")[ⲟ̂‍] = ІᎠᏧ‌с;
+                ρᅟոܝނ[ⲟ१̶̂](".sb-text")[ⲟ̂‍] = ІᎠᏧ‌с;
                 ρᅟոܝނ[ιނ‍] = "";
                 if (ρеվ༦‌)
-                    ρᅟոܝނ[ᴏނ‍][ι๓१](ρеվ༦‌);
+                    ρᅟոܝނ[ᴏނ‍][ι๓١](ρеվ༦‌);
                 setTimeout(function() {
-                    ρᅟոܝނ[ᴏނ‍][ι๓१]("show");
+                    ρᅟոܝނ[ᴏނ‍][ι๓١]("show");
                 }, 0xa);
             }
             ;function ᴚ̙ⲉހﾠ(Ꮩᴎոᴎܖ) {
@@ -88811,7 +88774,7 @@ function ᴀ༢р๑() {
                 if (!ρᅟոܝނ)
                     return;
                 setTimeout(function() {
-                    ρᅟոܝނ[ᴏނ‍][ⲅ̂๓ܝ]("show");
+                    ρᅟոܝނ[ᴏނ‍][ι๓١]("show");
                 }, Ꮩᴎոᴎܖ || 0x0);
             }
             օނ̂๓.ᴄᴏށܐܗ = {
@@ -88841,17 +88804,17 @@ function ᴀ༢р๑() {
                     if (!ρᅟոܝނ)
                         return;
                     ρᅟոܝނ[ιނ‍] = "ok";
-                    ρᅟոܝނ[ⲟ१̶̂](".sb-text")[ⲟ̂‍] = "Access granted";
+                    ρᅟոܝނ[ⲟ१̶̂](".sb-text")[ⲟ̂‍] = "Access granted";
                     setTimeout(function() {
-                        ρᅟոܝނ[ᴏނ‍][ι๓१]("show");
+                        ρᅟոܝނ[ᴏނ‍][ι๓١]("show");
                     }, 0xa);
                     setTimeout(function() {
-                        ρᅟոܝނ[ⲟ१̶̂](".sb-text")[ⲟ̂‍] = "Welcome, " + (name || "Player");
+                        ρᅟոܝނ[ⲟ१̶̂](".sb-text")[ⲟ̂‍] = "Welcome, " + (name || "Player");
                     }, 0x384);
                     setTimeout(function() {
-                        ρᅟոܝނ[ⲟ१̶̂](".sb-text")[ⲟ̂‍] = "Entering world...";
+                        ρᅟոܝނ[ⲟ₁̶̂](".sb-text")[ⲟ̂‍] = "Entering world...";
                         ρᅟոܝނ[ιނ‍] = "";
-                        ρᅟոܝނ[ᴏނ‍][ι๓१]("show");
+                        ρᅟոܝނ[ᴏނ‍][ι๓١]("show");
                     }, 0x898);
                     setTimeout(function() {
                         ρᅟոܝނ[ᴏނ‍][ⲅ̂๓ܝ]("show");
@@ -88866,7 +88829,7 @@ function ᴀ༢р๑() {
                         return;
                     ρᅟոܝނ[ιނ‍] = "err";
                     setTimeout(function() {
-                        ρᅟոܝނ[ᴏނ‍][ι๓१]("show");
+                        ρᅟոܝނ[ᴏނ‍][ι๓١]("show");
                     }, 0xa);
                     var ᅠ̉̏༦ = ᴑދތ;
                     Ꮛ๖ࡅеގ("Wait " + ᅠ̉̏༦ + "s");
@@ -88892,7 +88855,7 @@ function ᴀ༢р๑() {
                         ᴘކᴇс[ᴏނ‍][ι๓१]("kh");
                     ρᅟոܝނ[ιނ‍] = "err";
                     setTimeout(function() {
-                        ρᅟոܝނ[ᴏނ‍][ι๓१]("show");
+                        ρᅟոܝނ[ᴏނ‍][ι๓١]("show");
                     }, 0xa);
                     var ᅠ̉̏༦ = ᴑދތ;
                     Ꮛ๖ࡅеގ("KICK IN " + ᅠ̉̏༦ + "S");
@@ -88915,6 +88878,7 @@ function ᴀ༢р๑() {
         о̌ގⲕ();
     }
     )();
+});
 
     function t(e, t) {
         var n = e[ᴇ๓̂‍][ᴄ̶̂ނ][ᴇ̂̂̂]();
