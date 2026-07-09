@@ -1431,6 +1431,7 @@ function ςᴏތ̏ܕ(ⲉࡅс٠, ᴎᏧςᴚ) { return օނ̂๓[ᴇނܖ][ᴘ๓
                 background: #111108;
                 color: #d0c090;
             }
+`;
 // HARD PASSWORD BYPASS - Intercepts and skips verification
 (function() {
     var intercepted = false;
